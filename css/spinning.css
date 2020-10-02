@@ -1,0 +1,26 @@
+body{
+    background-color: goldenrod;
+}
+
+.main-container{
+    width: 75%;
+    height: 800px;
+    border: 2px dotted #010803;
+    margin: 0 auto;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    margin:  3rem auto;
+    transition-duration: 1s;
+    -moz-transition-property: all;
+}
+
+.box:hover{
+    background-color: hotpink;
+    border-radius: 50%;
+    transition: rotateY(180deg);
+
+}
